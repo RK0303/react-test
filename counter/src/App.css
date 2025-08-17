@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+background-color: #FBF5DE;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+font-family: "Poppins", sans-serif;
+color: #111827;
+}
+
+.card{
+  background-color: #EAC8A6;
+  padding: 2rem;
+  width: 520px;
+}
+.count{
+  display: flex;
+  justify-content: space-around;
+}
+.value1,
+.value2{
+  display: flex;
+}
+
+.value1 button,
+.value2 button{
+  font-size: 2rem;
+  padding: 0rem 2rem;
+  background-color: #3D74B6;
+  border: none;
+
+}
+.value1{
+  margin-right: 15px;
+}
+.input{
+  font-size: 2rem;
+  width: 60px;
+  text-align: center;
+}
+
+.total{
+  font-size: 2rem;
+  padding: 2rem 1rem;
+  text-transform: capitalize;
+}
+
+.cal{
+  display: flex;
+  justify-content: space-around;
+}
+.multiply,
+.divide {
+  font-size: 2rem;
+  text-transform: capitalize;
+  padding: 1rem 2rem;
+  background-color: #3D74B6;
+  border: none;
+}
+
+.reset{
+  margin-top: 1rem;
+  text-align: center;
+}
+.reset button{
+  font-size:2rem;
+  text-transform: capitalize;
+  padding: .5rem 1rem;
+  background-color: #3D74B6;
+  border: none;
+}
+
+
