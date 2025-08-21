@@ -2,8 +2,9 @@ import React,{useState} from 'react'
 import QuestionsData from "../../questions.json";
 
 
-const Question = ({currentQuestion}) => {
-  
+const Question = (props) => {
+
+  const {currentQuestion} = props;
 
   return (
     <div className="question-section">
