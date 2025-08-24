@@ -1,0 +1,42 @@
+.sidebar{
+    background-color:#081028 !important;
+    padding: 50px 15px;
+    font-size: 20px;
+    height: 100%;
+}
+.menu{
+    background-color:#081028 !important;
+    color: #AEB9E1;
+    
+}
+
+.ps-sidebar-container{
+    background-color: #081028 !important;
+}
+
+.menuitem{
+    background-color:#081028;
+    margin-top: 2rem;
+   
+}
+.ps-sidebar-root{
+    border-right:#AEB9E1 ;
+    border-bottom: solid 2px #AEB9E1 !important;
+    height: 100%;
+}
+
+.ps-menu-button:hover{
+    background-color: #0B1739 !important;
+    color: #AEB9E1;
+}
+.submenu{
+    background-color:#081028;
+    margin-top: 2rem;
+}
+.ps-submenu-content{
+    background-color: #081028 !important;
+}
+.submenu:hover{
+    background-color: #0B1739 !important;
+    color: #AEB9E1;
+}
