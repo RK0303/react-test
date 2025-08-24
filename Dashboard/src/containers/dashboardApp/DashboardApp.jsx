@@ -1,7 +1,7 @@
 import React from 'react'
 
 import {CssBaseline} from '@mui/material'
-import Topbar from './Topbar/Topbar'
+import Topbar from '../Topbar/Topbar'
 import Sidebar from '../sidebar/Sidebar';
 import TopGrid from '../mainGrid/TopGrid';
 import BasicPie from '../../components/chart/PieChart';
